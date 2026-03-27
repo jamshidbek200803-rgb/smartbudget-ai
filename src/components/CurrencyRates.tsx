@@ -1,5 +1,4 @@
 import React from 'react';
-import { TrendingUp } from 'lucide-react';
 
 const CurrencyRates: React.FC = () => {
   const rates = [

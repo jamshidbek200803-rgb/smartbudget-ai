@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X } from 'lucide-react';
-import { useFinance, TransactionType } from '../context/FinanceContext';
+import { useFinance, type TransactionType } from '../context/FinanceContext';
 
 interface Props {
   type: TransactionType;
